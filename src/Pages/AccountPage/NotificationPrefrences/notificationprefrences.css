@@ -1,0 +1,67 @@
+.notificationprefrencesPage-div {
+    background: linear-gradient(0deg, #11142E, #11142E),
+    linear-gradient(0deg, #5991C6, #5991C6);
+    height: 160%;
+    color: white;
+width: 100%;
+}
+@media(min-width:768px){
+    .notificationprefrencescontent-div{
+        height: 98%;
+        width: 75%;
+
+    }
+}
+@media(max-width:767px){
+    .notificationprefrencescontent-div{
+margin-top: 5%;
+height: 65%;
+        width: 90%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.notificationprefrencescontent-div{
+    border: 1px solid #5991C6;
+    
+    padding-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+padding: 2rem;
+    border-radius: 20px;
+
+    overflow: auto;
+    scrollbar-color: #2e2e2e #454545;
+    scrollbar-width: thin;    
+}
+.notificationprefrences-icondiv{
+    border: 1.5px solid #22779C;
+    box-shadow: 0px 0px 24px 2.4000000953674316px #049ECF40;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+}
+.notificationprefrences-buttondiv{
+    width: 100%;
+}
+.notificationprefrences-buttondiv button{
+    background: linear-gradient(0deg, #22779C, #22779C),
+linear-gradient(0deg, #55C0EF, #55C0EF);
+border: 1px solid #55C0EF;
+width: 8rem;
+height: 2.5rem;
+border-radius: 20px;
+}

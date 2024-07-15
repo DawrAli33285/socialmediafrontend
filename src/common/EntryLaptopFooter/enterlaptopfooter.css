@@ -1,0 +1,47 @@
+.entry-laptop-footer-div{
+    padding-left: 5%;
+    width: 98%;
+margin-left: -2rem !important;
+
+}
+.entry-laptop-footer-links{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-laptop-footer-logo img{
+    width: 50%;
+}
+.entry-laptop-footer-links p{
+    margin-left: 2rem;
+}
+.entry-laptop-footer-lastdivone p{
+margin-left: 2rem;
+}
+.entry-laptop-footer-lastdivone:nth-child(1){
+    margin-top: 2%;
+}
+.entry-laptop-footer-sociallinks{ 
+    width: 10%;
+
+}
+
+.entry-laptop-footer-lastdiv{
+
+    justify-content: center;
+    align-items: center;
+}
+.entry-laptop-footer-lastdivtwo p{
+    margin-left: 2rem;
+
+}
+.entry-laptop-footer-lastdivtwo{
+    margin-top: 1%;
+}
+
+.entry-laptop-footer-div hr {
+    margin-top: 5%; /* Adjust the value as needed */
+    width: 98%; /* Set the width of the <hr> to 80% of its parent container */
+    margin-left: auto; /* Center the <hr> element horizontally */
+    margin-right: auto; /* Center the <hr> element horizontally */
+  }

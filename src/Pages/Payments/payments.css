@@ -1,0 +1,48 @@
+.payments-div{
+background-color: #0f1325;
+color: white;
+}
+.payments-logo img{
+    width: 9rem;
+    
+}
+.payments-logo{
+    width: 100%;
+padding: 1rem;
+}
+.payments-form{
+border: 1px solid #5991C6;
+margin-top: 1rem;
+}
+.payments-center-div{
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+  font-size: 1.2rem;
+  font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+.payments-form div:nth-child(1) p{
+
+color: #5991C6;
+}
+.monthly-sub-status span{
+font-weight: 600;
+color: white;
+}
+.payments-form input{
+    border-radius: 30px;
+    border: 1px solid #5991C6 !important;
+   background-color: #0f1325;
+}
+.stripe-input-div{
+    border: 3px solid red;
+    border-radius: 30px;    
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+    color: white;
+    border: 1px solid #5991C6 !important;
+    height: 2.5rem;
+}

@@ -1,0 +1,283 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#loginration-div {
+    display: flex;
+    flex-direction: column;
+      background-color: #0C0E1C;
+    color: white;
+    align-items: stretch; /* Default value, can be changed to start, center, etc. */
+    justify-content: flex-start; /* Adjust this as needed */
+    width: 100%;
+    /* height: 100%; */
+    overflow: auto; /* Add this to handle any overflow */
+}
+
+#loginartion-content{
+padding-top: 5%;
+height:100%;
+
+padding-left: 10%;
+}
+
+.loginration-formdiv h2{
+    font-size: clamp(1.4rem,2.5vw,3rem);
+
+}
+.loginration-formdiv p{
+    font-size: clamp(0.9rem,0.9vw,1rem);
+}
+#loginration-img{
+ display: flex;
+
+ justify-content: center;
+ align-items: center;
+
+
+}
+@media (min-width:768px){
+    .socialbutton{
+        height: clamp(2.5rem,2vh,3.5rem);
+    }
+    #loginration-img{
+height: 35.25rem;
+padding-top: 5%;
+    }
+    #loginration-div {
+        height: 100%;
+    }
+    .reg-formicon{
+width: 1rem;
+    }
+    .loginration-formdiv{
+
+        height: 80%;
+    padding-left: 10%;
+    }
+    #loginration-img{
+        width: 60%;
+    }
+    .loginration-form{
+  
+        width: 60%;
+ }
+ #loginartion-content{
+    padding-left: 10%;
+    }
+}
+@media (max-width:767px){
+    #loginration-img{
+height: 45%;
+
+    }
+    #loginration-div {
+        height: 140%;
+    }
+    .login-form-item input::placeholder{
+     
+      width: 80%;
+    }
+    .reg-formicon{
+       
+font-size: 0.5rem;
+width: 0.8rem;
+    }
+    .loginration-formdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;        
+    padding-left: 0%;
+    }
+    #loginartion-content{
+        padding-left: 0%;
+        }
+    #loginration-img{
+        width: 100%;
+
+    
+    }
+    .loginration-form{
+height: 100%;
+           width: 80%;
+    }
+}
+.loginration-formdiv{
+   
+    width: 100%;
+
+}
+.loginration-form{
+ align-items: center;
+ 
+ display: flex;
+ flex-direction: column;
+
+border-radius: 20px;
+
+outline: none;
+margin-top: 3%;
+
+padding-top: 3%;
+border: 1px solid #5991C6
+}
+.loginration-form>*{
+    width: 80%;
+padding-top: 3%;
+}
+
+.login-form-item input{
+border-radius: 25px;
+
+height: clamp(2rem,3vw,4rem);
+width: 100%;
+color: #BBB;
+outline: none;
+padding-left: 5%;
+background: linear-gradient(0deg, rgba(35, 55, 158, 0.2), rgba(35, 55, 158, 0.2)),
+linear-gradient(268.66deg, rgba(89, 145, 198, 0.2) 2.35%, rgba(89, 145, 198, 0.2) 96.78%);
+
+border: 1px solid #5991C6;
+
+font-size: clamp(0.9rem,0.9vw,1rem);
+}
+.login-form-item input::placeholder{
+    color: #BBB;
+
+}
+.login-form-item svg{
+    position: absolute;
+    left: 88%;
+    top: 35%;
+}
+.reg-bar svg{
+    width: 100%;
+   
+}
+.reg-bar{
+    color: #8CC8FF;
+    ;
+}
+.reg-rules{
+    background: #275ACE;
+
+
+}
+.reg-rules-content{
+
+    height: fit-content;
+    display: flex;
+    align-items: center;
+
+}
+.reg-rules-content{
+
+    font-size: clamp(0.9rem,0.9vw,1rem);
+    padding-top: 0;
+    margin: 0;
+    width: fit-content; 
+ 
+    height: 22%;
+}
+.reg-rules{
+
+    display: flex;
+    flex-direction: column;
+ height: 21%;
+}
+.reg-rules-content svg{
+    width: 3.5rem;
+}
+.reg-rules p:nth-child(1){
+    
+padding-left: 5%;
+}
+.checkbox-container {
+    background-color: #0C0E1C; /* This is the dark blue background */
+    color: white;
+    padding: 10px;
+    border-radius: 5px; /* Adjust radius as per your design */
+    /* Add other styling as necessary */
+  }
+  
+  .custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spacing between checkboxes */
+  }
+  
+  .custom-checkbox input[type="checkbox"] {
+    color: #5991C6; /* This is the color for the checkbox */
+    margin-right: 5px;
+    border: 1px solid;
+    width: 30px; /* Desired width */
+    height: 30px; /* Desired height */
+border-image-source: linear-gradient(268.66deg, #5991C6 2.35%, #5991C6 96.78%);
+outline: none;
+
+  }
+  
+  .custom-checkbox label {
+    font-size: 14px; /* Adjust font-size as per your design */
+    line-height: 1.2;
+    /* Add other styling as necessary */
+  }
+  
+  /* Add any additional styling for hover/active states or responsiveness as needed */
+  
+  .reg-lastlink{
+
+      text-align: center;
+  }
+  .checkbox-container label{
+    font-size: clamp(0.9rem,0.9vw,1rem);
+  }
+  .reg-lastlinks{
+      border: 3px solid red;
+  }
+  .reg-lastlinks p{
+      border: 3px solid red;
+    
+  }
+  .reg-lastlinks label{
+      width: 100%;
+  }
+  .underline-text {
+    text-decoration: underline;
+    color: rgb(133, 147, 207); 
+  }
+  .highlight-text {
+    text-decoration: underline;
+    color: rgb(133, 147, 207); 
+    cursor: pointer;
+  }
+  .socialbutton {
+    border: 1px solid rgb(133, 147, 207);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adjust padding to increase or decrease the button height */
+    border-radius: 30px;
+    width: 80%;
+    font-size: 0.8rem;
+    margin-top: 3%;
+gap: 7% ;
+font-size: clamp(0.6rem,0.9vw,1rem);
+}
+  
+.fbbtn{
+    gap:7%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: clamp(0.6rem,0.9vw,1rem);
+    width: 100%;
+    padding-left: 5%;
+}
+
+#link-to-forget{
+    font-size: clamp(0.7rem,0.9vw,0.8rem);
+}

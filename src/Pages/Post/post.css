@@ -1,0 +1,67 @@
+
+
+.postcontent-div{
+
+    margin-top: 7%;
+    padding-top: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+border: 1px solid #8CC8FF;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 20px;
+    height: 65%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+
+.post-content{
+   
+    margin-top: 0.5rem;
+}
+.post-content>*{
+    margin-top: 0.5rem;
+}
+.post-content p{
+    font-size: clamp(0.9rem,1.5vw,0.10rem);
+    width: 80%;
+}
+
+.post-lastdiv{
+gap: 1rem;
+    width: 95%;
+    align-items: center;
+  
+}
+.post-threedots{
+  width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.post-popupdiv{
+
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+  position: absolute;
+top: 105%;
+left: 102.5%;
+height: 3.5rem;
+}
+.post-popupdiv div{
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+ 
+    background: #275ACE;
+
+}
+.post-popupdiv div p:nth-child(1){
+    border-bottom: 1px solid #FFFFFF;
+}
+.post-popupdiv div p{
+    font-size: clamp(0.8rem,1vw,1rem);
+}

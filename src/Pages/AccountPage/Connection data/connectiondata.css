@@ -1,0 +1,147 @@
+@media(min-width:768px){
+    .connectiondatacontent-div{
+        height: 95%;
+        width: 75%;
+
+    }
+}
+@media(max-width:767px){
+    .connectiondatacontent-div{
+margin-top: 5%;
+height: 65%;
+        width: 90%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.connectiondatacontent-div{
+    border: 1px solid #5991C6;
+    
+    padding-top: 1rem;
+height: 100%;
+    display: flex;
+    flex-direction: column;
+padding: 2rem;
+    border-radius: 20px;
+
+    overflow: auto;
+    scrollbar-color: #2e2e2e #454545;
+    scrollbar-width: thin;    
+}
+.connectiondataPage-div {
+    background: linear-gradient(0deg, #11142E, #11142E),
+    linear-gradient(0deg, #5991C6, #5991C6);
+    height: 190%;
+    color: white;
+width: 100%;
+}
+.connectiondata-input{
+   color: white;
+   height: 2.8rem;
+   display: flex;
+   align-items: center;
+   padding-left: 1rem;
+   border-radius: 30px;
+    border: 1px solid #5991C6;
+}
+.connectiondata-input input{
+    background: transparent;
+    color: white;
+    outline: none;
+    width: 95%;
+    border: none;
+}
+.connectiondata-save{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.connectiondata-save button{
+    background: linear-gradient(0deg, #22779C, #22779C),
+    linear-gradient(0deg, #55C0EF, #55C0EF);
+    border: 1px solid #55C0EF;
+    box-shadow: 0px 0px 31px 0px #419AEC80;
+width: clamp(10rem,15vw,13rem);
+height: 3rem;
+border-radius: 30px;    
+}
+.connectiondata-border{
+    border-top: 1px solid #3d3d3d;
+}
+.connectiondata-passwordrules{
+
+    background-color: #15357E;
+}
+
+.connectioncontent-socialswitches{
+    border-top: 1px solid #3d3d3d;
+    gap: 0.8rem;
+    padding-top: 1rem;
+    min-height: 8.5rem;
+    border-bottom: 1px solid #3d3d3d;
+}
+.connectiondata-deleteaccount{
+    background: #FF1531;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 30px;
+}
+.connectiondata-inputtext,.connectiondata-border{
+    margin-top: 1rem;
+}
+.votreid{
+    min-height: 5rem;
+}
+
+.email-update-popup{
+    position: absolute;
+    backdrop-filter: blur(30px);
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+.email-update-popup div{
+    display:flex;
+    flex-direction: column;
+    background:
+    #11142E ;
+    width:60%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+border: 1px solid #5991C6;
+height: 50%;
+}
+.email-update-popup div p:nth-child(1){
+  
+    font-size: 1.5rem;
+}
+.email-update-popup div button{
+    background: linear-gradient(0deg, #22779C, #22779C),
+linear-gradient(0deg, #55C0EF, #55C0EF);
+border: 1px solid #55C0EF;
+width: 50%;
+height: 3rem;
+margin-top: 3%;
+border-radius: 30px;
+}
+
+.delete-account-buttondiv{
+   
+    display: flex;
+    flex-direction: row !important;
+   gap: 1rem;
+
+    border: none !important;
+}

@@ -1,0 +1,311 @@
+.feedPage-div{
+    background: linear-gradient(0deg, #11142E, #11142E),
+    linear-gradient(0deg, #5991C6, #5991C6);
+    height: 100%;
+    color: white;
+width: 100%;
+}
+.navbar-feedcontent-div{
+
+    width: 100%;
+}
+
+/* feedcontentpage */
+
+.feedcontent-div {
+    border: 1px solid #5991C6;
+    
+    padding-top: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center; 
+    border-radius: 20px;
+    height: 65%;
+    overflow: auto;
+    scrollbar-color: #2e2e2e #454545;
+    scrollbar-width: thin; 
+}
+/* .feedcontent-div::-webkit-scrollbar {
+    width: 12px; 
+}
+
+
+.feedcontent-div::-webkit-scrollbar-track {
+    background: #454545; 
+    border-radius: 10px; 
+} */
+
+/* .feedcontent-div::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e; 
+    border-radius: 10px;
+    border: 3px solid #454545; 
+}
+
+.feedcontent-div::-webkit-scrollbar-thumb:hover {
+    background-color: #3d3d3d; 
+} */
+
+
+.feed-post{
+   width: 95%;
+   
+padding-left: 2%;
+padding-top: 1%;
+display: flex;
+border-top: 0.5px solid #3d3d3d;
+border-bottom: 0.5px solid #3d3d3d;
+flex-direction: column;
+justify-content: center;
+
+align-items: flex-start;
+}
+
+.feed-content-avatar img{
+   
+    border-radius: 50%;
+}
+.feed-post-profilecontent{
+    gap:0.5rem;
+    
+}
+.feedpost-profile-dots{
+  
+    width: 95%;
+    justify-content: space-between;
+}
+
+.feed-post-profile-text{
+
+gap: 5%;
+margin-top: 3%;
+}
+.feed-post-profile-parent{
+    
+    width: 100%;
+}
+
+.feed-content-profile-textonly>*{
+padding-top: 0.5%;
+}
+.feed-post-auidodiv{
+    height: 30%;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+}
+
+@media(max-width:1000px){
+    .feed-post-auidodiv{
+        gap: 1rem;
+    }
+}
+
+
+.feed-subbtn{
+    border-radius: 30px;
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+linear-gradient(0deg, #8CC8FF, #8CC8FF);
+border: 1px solid #8CC8FF;
+
+height: 140%;
+font-size: clamp(0.9rem,0.9vw,1rem);
+
+}
+
+.feed-post h1,.feed-post h2,.feed-post h3,.feed-post p,.feed-post span{
+    /* font-size: clamp(0.8rem,1vw,1rem); */
+    font-size: clamp(0.9rem,1vw,1rem);
+
+}
+.feed-content-profile-textonly p:nth-child(2){
+
+    font-size: clamp(0.6rem,0.9vw,0.9rem);
+}
+
+@media (min-width:768px){
+    .feedcontent-div {
+        
+        margin-top: 7%;
+
+    }
+    .feed-post{
+        height: 45%;
+    }
+    .feed-post-profilecontent{
+
+        width: 50%;
+    }
+    .feed-content-avatar img{
+        height: 50px;
+        width: 60px;
+    }
+    .feed-subbtn{
+        width: clamp(8rem,45%,10%);
+        height:  clamp(2.2rem,45%,20%);;
+    }
+}
+@media (max-width:768px){
+    .feedcontent-div {
+        
+        margin-top: 11%;
+
+    }
+    .feed-post{
+        height: 35%;
+    }
+    .navbar-feedcontent-div{
+height: 95%;
+    }
+    .feed-post-profilecontent{
+
+        width: 100%;
+    }
+    .feed-content-avatar img{
+        height: 40px;
+        width: 50px;
+
+    }
+    .feed-subbtn{
+        width: clamp(73px,44%,80px);
+    }
+}
+.feedcontent-popup{
+
+}
+.feedcontent-popup div{
+  
+    width: 130%;
+    background: #275ACE;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+
+
+.feedcontent-popup div p:nth-child(1){
+border-bottom: 1px solid white;
+
+}
+.feedcontent-popup div p{
+    width: 80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* audip player */
+
+
+
+
+
+
+
+.audioplayer-div {
+    display: flex; /* This will align children (wave and button) in a row */
+    align-items: center; /* This will vertically center the button with the wave */
+    justify-content: space-between; /* This will add space between the wave and the button */
+   /* Your existing border style */
+    width: 85%; /* Your existing width */
+    padding: 10px; /* Add padding inside the border if needed */
+gap: 0.5rem;
+}
+
+.audioplayer-wave {
+    /* Your existing border style */
+    
+   
+
+
+    background: rgba(35, 55, 158, 0.5);
+   width: 100%;
+   padding-left: 1rem;
+   border-radius: 30px;
+   border: 1px solid #8CC8FF;
+    flex-grow: 1; /* This will make the wave occupy the maximum width available */
+    margin-right: 10px; /* Add some margin between the wave and the button */
+
+}
+
+.audioplayer-playbtn{
+    background: linear-gradient(58.18deg, #0061BA 14.71%, #295AD7 84.92%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+border-radius: 50%;
+}
+
+@media (max-width:768px){
+    .audioplayer-playbtn{
+        height: 30px;
+        width: 40px;
+    }
+  
+    .audioplayer-playbtn svg{
+        height: 15px;
+        width: 10px;
+    }
+  
+
+    .audioplayer-wave {
+     
+        /* Your existing border style */
+        padding-top: 0rem;
+        height:2rem;
+    }
+}
+@media (min-width:768px){
+    .audioplayer-wave {
+        /* Your existing border style */
+        padding-top: 0.3rem;
+        height: 2.5rem;
+
+    }
+  
+    .audioplayer-playbtn{
+        height: 40px;
+        width: 45px;
+    }
+    .audioplayer-playbtn svg{
+        width: 25px;
+        height: 20px;
+
+    }
+}
+.locked-post{
+
+    position: absolute;
+    padding-left: 50%;
+    backdrop-filter: blur(3px); 
+    z-index: 5;
+
+    width: 100%;
+}
+
+
+
+
+.feedcontent-popupdiv{
+  top:105%;
+  left:-70%;
+    position: absolute;
+    width: 4rem !important;
+    height: 3rem;
+}
+

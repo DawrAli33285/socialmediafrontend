@@ -1,0 +1,30 @@
+@media (max-width:768px){
+    .entrymobile-footer-mobile{
+    display: flex;
+
+width: 100%; 
+justify-content: center;
+align-items: center;
+
+flex-direction: column;
+}
+}
+@media (min-width:768px){
+    .entrymobile-footer-mobile{
+    display: none;
+    }
+}
+.entrymobile-footer-mobile img{
+    width: 32%;
+}
+.entrymobile-footer-mobile p:not(:nth-child(1)){
+margin-top: 5%;
+}
+.entry-mobile-footer-socialicon-div{
+    margin-top: 5%;
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}

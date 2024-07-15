@@ -1,0 +1,174 @@
+.navbarsearch-div input{
+    outline: none;
+   margin-left: 1rem;
+    border: none;
+    width: 80%;
+    background: transparent;
+height: 3rem;
+}
+
+.navbarsearch-div{
+  
+ height: 5rem; 
+ background: linear-gradient(0deg, #11142E, #11142E),
+ linear-gradient(0deg, #5991C6, #5991C6);
+}
+
+.navbarsearch-div{
+    border: 1px solid #5991C6;
+align-items: center;
+border-radius: 30px;
+position: relative;
+}
+.navbarsearch-div svg{
+    left: 90%;
+    top: 25%;
+    width: 1rem;
+    position: absolute;
+}
+.navbar-div{
+width: 100%;
+padding-left: 5%;
+margin-top: 3%;
+
+}
+
+.navbar-button-profile-div button{
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+    linear-gradient(0deg, #8CC8FF, #8CC8FF);
+border: 1px solid #8CC8FF;
+font-size: clamp(0.9rem,1vw,1rem);
+
+
+border-radius: 30px;
+}
+.navbar-button-profile-div{
+justify-content: flex-end;
+align-items: center;
+    width: 100%;
+   
+}
+
+
+.navbar-avatar img{
+   
+    border-radius: 50%;
+}
+.navbar-profile {
+   
+    gap: 5%;
+    
+}
+@media (max-width:768px){
+    
+
+    .navbar-profile{
+        margin-top: 1.5rem;
+        width: 8.8125rem;
+    }
+  
+    .navbar-button-profile-div{
+    
+            gap: 2%;
+        }
+    .navbar-button-profile-div button{
+        width: clamp(5.12rem,45%,10%);
+        height:  clamp(2rem,20%,2.2rem);
+     margin-top: -3%;
+     font-size: 0.6rem;
+     height: 2rem;   
+    }
+    .navbar-avatar img{
+   
+        height: 30px;
+        width: 56px;
+
+    }
+    .navbar-div{
+        margin-top:8%;
+    }
+    .navbar-div{
+height: 11%;
+padding-left: 0px;    
+}
+.navbarsearch-div,.pagename-search{
+width: 90%;
+margin-top: 0.5rem;
+
+}
+.navbarsearch-div,.pagename-search{
+height: 5.5rem;
+
+}
+}
+@media (min-width:768px){
+    .hide-navbar-account {
+        display: none;
+    }
+    .pagename-search{
+        
+        text-align: center;
+    }
+    .navbarsearch-div,.pagename-search{
+        
+width: 100%;
+    }
+    .navbarsearch-div,.pagename-search{
+        height: 3.43rem;
+    }
+    .navbar-div{
+        height: 7%;
+    }
+    .navbar-profile{
+        width: 30%;
+    }
+    .navbar-button-profile-div{
+      
+            gap: 9%;
+        }
+    .navbar-button-profile-div button{
+            width: clamp(8rem,45%,10%);
+            height:  clamp(2.2rem,2rem,10rem);
+    }
+    
+.navbar-avatar img{
+   
+    height: clamp(2.8875rem,25%,4.12rem);
+    width: clamp(3.12rem,6vw,6rem);
+}
+}
+.navbar-name span{
+font-size: 0.7rem;
+color: #828282;
+
+}
+.navbar-name h3{
+    font-size: clamp(0.9rem,1vw,1rem);
+
+}
+.navbar-mobile-menu{
+    left: 9%;
+    position: absolute;
+margin-top: 2rem;
+    height: fit-content;
+    
+    
+}
+
+.become-btnnavbar{
+    background: linear-gradient(0deg, #22779C, #22779C),
+linear-gradient(0deg, #55C0EF, #55C0EF) !important;
+border: 1px solid #55C0EF;
+box-shadow: 0px 0px 31px 0px #419AEC80;
+
+}
+
+.mobile-titlenav{
+    font-family: 'SigniaPro', sans-serif;
+}
+
+.pagename-search p:nth-child(1){
+ 
+
+    margin-top: 1rem;
+}

@@ -1,0 +1,230 @@
+.chat-firstrow-partone{
+
+    width: 100%;
+  
+}
+.chat-firstrow-partone div:nth-child(1){
+
+width: clamp(5rem,1vw,15%);
+gap: clamp(1rem,1.5vw,15%);
+}
+.chat-first-row{
+    width: 98%;
+
+
+}
+.chat-audioicon{
+    justify-content: flex-end;
+align-items: flex-end;
+
+width: 50%;
+}
+.userchat-message-avatar-div{
+    width: 100%;
+  gap: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.time-seen{
+   
+    width: 100%;
+    top: -30%;
+    height: fit-content;
+}
+.userchat-message,.chat-creator-message,.creator-message{
+   border-radius: 10px;
+ 
+ height: fit-content;
+    width: clamp(12rem,1vw,15rem);
+    background: #1E2141;
+padding:0.5rem;
+font-size: clamp(0.9rem,0.9vw,1rem);
+}
+.chat-user-avatar,.chat-creator-avatar{
+    width: 50px;
+height: 40px;
+border-radius: 50%;
+}
+
+.chat-user-avatar img,.chat-creator-avatar img{
+    width: 45px;
+height: 40px;
+border-radius: 50%;
+}
+.chat-creator-messagediv,.userchat-message  {
+    gap: 0.5rem;
+  
+    margin-top: 3rem;
+}
+.chat-creator-messagediv{
+    
+}
+.creator-audio-message{
+   
+width:clamp(15.3rem,55.5vw,45%);
+
+}
+.free{
+  
+    border-radius: 10px;
+  
+}
+.chat-creator-messagediv{
+   
+    width: 100%;
+    justify-content: flex-start;
+align-items: flex-start;
+}
+
+
+.chatcontent-div {
+    border: 1px solid #5991C6;
+    margin-top: 7%;
+    padding-top: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 20px;
+    height: 74%;
+    
+    scrollbar-color: #2e2e2e #454545;
+    scrollbar-width: thin; 
+}
+.chatPage-div{
+    background: linear-gradient(0deg, #11142E, #11142E),
+    linear-gradient(0deg, #5991C6, #5991C6);
+  
+     /* Adjust as needed */
+    overflow-y: auto !important; /* Shows scrollbar only when needed */
+    /* Other styles remain the same */
+   
+color: white;
+width: 100%;
+}
+.creator-audio-message {
+    gap: 2rem;
+}
+
+.chat-prem-audi-buttons button{
+    border-radius: 30px;
+
+height: clamp(1.5rem,4vw,2rem);
+font-size: clamp(0.9rem,0.9vw,1rem);
+width: clamp(5rem,4vw,6rem);
+}
+.chat-prem-audi-buttons button:nth-child(1){
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+linear-gradient(0deg, #8CC8FF, #8CC8FF);
+border: 1px solid #8CC8FF
+}
+.chat-prem-audi-buttons button:nth-child(2){
+    border: 1px solid #8CC8FF   
+}
+
+.chat-prem-audi-buttons{
+    gap: 0.5rem;
+}
+.chat-enter-message{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ 
+position: absolute;
+width: 95%;
+left:2%;
+top: 91.5%;
+height: clamp(5%,7vw,5.5%);
+border: 1px solid;
+border: 1px solid #5991C6 ;
+
+padding-left: 2%;
+border-radius: 5rem;
+}
+
+.chat-enter-message input{
+    outline: none;
+    width: 80%;
+    background: none;
+}
+.chat-send-message-button{
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+linear-gradient(0deg, #8CC8FF, #8CC8FF);
+border-radius: 50%;
+display: flex;
+
+width:  clamp(3rem,5vw,7%);
+
+position: absolute;
+justify-content: center;
+align-items: center;
+}
+
+@media(min-width:451px) and (max-width:767px){
+    .chat-send-message-button{
+        left: 91%;
+        height: 100%;
+   
+    }
+
+    .chatPage-div{
+        height: 190%;
+    }
+}
+.chatPage-div p,.chatPage-div span{
+    font-size: clamp(0.7rem,0.9vw,1rem);
+}
+
+@media(max-width:450px){
+    .chat-send-message-button{
+        left: 85%;
+        width: 15%;
+        height: 100%;
+        top: -3%;
+    }
+    .chatPage-div{
+        height: 185%;
+    }
+    
+}
+@media(min-width:768px){
+    .chat-send-message-button{
+    height:100%;
+    width: 9.5%;
+    }
+    .chatPage-div{
+        height: 220%;
+    }
+    
+    .chat-send-message-button{
+        left: 91%;
+    }
+}
+.chat-call{
+    background: linear-gradient(0deg, #0BA311, #0BA311),
+linear-gradient(268.66deg, #71E176 2.35%, #3CC141 96.78%);
+width: clamp(7rem,1vw,32%);
+height: 2.5rem;
+font-size: clamp(0.7rem,0.9vw,1rem);
+border-radius: 35px;
+text-align: center;
+}
+/* 
+.audioplayer-div{
+    gap: 0 !important;
+
+} */
+
+#premdiv{
+
+    height: 9rem;
+}
+#premdiv p{
+    margin: 1rem;
+}
+
+
+.time-seen {
+   
+    top: 100%;
+}

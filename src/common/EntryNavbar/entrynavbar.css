@@ -1,0 +1,92 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Inter:wght@300&family=Montserrat:wght@200;300&family=Roboto:wght@300&family=Sacramento&display=swap');
+
+.entrynavbar{
+align-items: center;   
+    justify-content: space-between;
+    background: #0C0E1C;
+width: 100%;
+box-sizing: border-box;
+height: 3rem;
+}
+.entrynavbar-logo img{
+width: 45%;
+
+margin-left: 15%;
+object-fit: cover;
+}
+
+.entrynavbar-linkspc p{
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+
+    color:#FFFFFF;
+}
+.entrynavbar-linkspc {
+align-items: center;
+    gap: 5%;
+    justify-content: center;
+    width: 50%;
+}
+
+@media(min-width:768px) and (max-width:805px){
+   
+    .entrynavbar-linkspc p{
+
+font-size: 0.7rem;       
+    }
+}
+
+.entrynavbar-lastsection{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color:#FFFFFF;
+}
+.entrynavbar-lastsection button{
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+    linear-gradient(0deg, #8CC8FF, #8CC8FF);
+    border: 1px solid #8CC8FF;
+width: 7rem;
+height: 2rem;
+    padding: 8px, 30px, 8px, 30px;
+    border-radius: 50px;
+    border: 1px;
+
+    gap: 8px;
+    
+}
+.entrynavbar-lastsection {
+    justify-content: center;
+
+    align-items: center;
+    gap: 15%;
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    .entrynavbar-logo img{
+      
+        margin-left: 6%;
+    }
+.entrynavbar-lastsection{
+    width: 54%;
+    margin-left:-31%;
+}
+}
+.mobile-navbar-toggle{
+    background: #0C0E1C;
+    width: 100%;
+    color: white;
+    transition: max-height 0.4s ease-in;
+    max-height: 0;
+  overflow: hidden;
+  
+}
+.mobile-navbar-toggle-active{
+    max-height: 20rem;
+}
+.mobile-navbar-toggle p{
+    font-size: 0.8rem;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    text-align: center;
+}

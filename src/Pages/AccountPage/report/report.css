@@ -1,0 +1,40 @@
+.custom-select {
+  cursor: pointer;
+}
+
+.dropdown-item {
+  color: #BEC1CD;
+  cursor: pointer;
+  background: #15357E;
+}
+
+.dropdown-item:hover {
+  background-color: #1C2045;
+}
+
+.dropdown-second{
+  background-color: #15357E;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 23px;
+}
+.dropdown-item {
+  width: 100%;
+  border-radius: 30px;
+}
+@media(min-width:768px){
+  .report-contentdiv{
+
+    width: 60%;
+  }
+}
+@media(max-width:767px){
+  .report-contentdiv{
+
+    width: 90%;
+  }
+}

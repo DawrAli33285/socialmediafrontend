@@ -1,0 +1,19 @@
+.account-navbarlogo{
+    width:clamp(8rem,2vw,9rem);
+}
+.account-navbarlastdiv{
+
+    width: 90%;
+    justify-content: flex-end;
+    gap: 7rem;
+    align-items: center;
+}
+.become-btnnavbar{
+    width: 9rem;
+    border-radius: 15px;
+    height: 2rem;
+}
+.account-navbarpagename{
+  
+    font-size: 1.3rem;
+}

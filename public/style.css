@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Signia Pro';
+    src: local('Signia Pro Regular'), local('Signia-Pro-Regular'),
+        url('SigniaPro-Regular.woff2') format('woff2'),
+        url('SigniaPro-Regular.woff') format('woff'),
+        url('SigniaPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

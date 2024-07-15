@@ -1,0 +1,373 @@
+.landing-page{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 100%;
+}
+.landingpage-content{
+padding-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0C0E1C;
+    color: white;
+    align-items: center;
+}
+.sectionone-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sectionone-div>*{
+padding-top: 3%;
+}
+.sectionone-div h2{
+    font-size: 250%;
+    font-family: 'SigniaPro', sans-serif;
+
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    text-align: center;
+
+}
+.sectionone-contentone p{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.sectionone-contentone{
+width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.sectionone-buttons>button:nth-child(1){
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+    linear-gradient(0deg, #8CC8FF, #8CC8FF);
+    border: 1px solid #8CC8FF;
+    box-shadow: 0px 0px 31px 0px #419AEC80;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 8px, 30px, 8px, 30px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 8px;
+        
+}
+.sectionone-buttons>button:nth-child(2){
+    background-color: rgb(39, 37, 91);
+border: 1px solid white !important;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 8px, 30px, 8px, 30px;
+    border-radius: 50px;
+    border: 1px;
+    gap: 8px;
+}
+.sectionone-buttons{
+    gap: 5%;
+
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.sectionone-divtwo{
+    padding-top: 4%;
+}
+@media(max-width:768px){
+    .landing-page-faq-content >div{
+        width: 80%;
+    }
+    .lastsection-div button{
+        width: 30%;
+    }
+    .sectionthree-contenttwo{
+        width: clamp(100%, 15vw, 80%);
+    }
+    .sectionthree-div{
+        margin-top: 15%;
+    }
+    .sectionthree-contentone{
+        width: 100%;
+    }
+    .sectiontwo-subcontenttwo{
+  
+        width: 100%;
+    }
+    .lastsection-div img{
+        width: clamp(120%, 17vw, 80%);
+    }
+    .sectionthree-contenttwo img{
+        width: clamp(100%, 15vw, 80%);
+    }
+    .sectiontwo-subcontentone{
+        width: clamp(100%, 15vw, 80%);
+    }
+    
+    .sectionone-divtwo{
+        width: clamp(100%, 15vw, 80%);
+        }
+        .sectiontwo-contentone{
+            padding-top: 10%;
+        }
+}
+@media(min-width:768px){
+    .landing-page-faq-content >div{
+        width: 45%;
+    }
+    .lastsection-div button{
+        width: 10%;
+    }
+    .sectionthree-contentone{
+        width: 50%;
+    }
+    .sectionthree-contenttwo{
+        width: 50%;
+    }
+    .lastsection-div img{
+        width: 80%;
+    }
+    .sectionthree-contenttwo img{
+        width: 80%;
+    }
+    .sectionone-divtwo{
+        width: 80%;
+        }
+        .sectiontwo-subcontentone{
+            width: 50%;
+        }
+        .sectiontwo-subcontenttwo{
+  
+            width: 50%;
+        }
+        
+}
+
+.sectionone-mobilebuttons>button:nth-child(1){
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+    linear-gradient(0deg, #8CC8FF, #8CC8FF);
+    border: 1px solid #8CC8FF;
+    box-shadow: 0px 0px 31px 0px #419AEC80;
+    width: Fill (225px);
+height: Hug (35.32px);
+padding: 6.16px, 23.1px, 6.16px, 23.1px;
+border-radius: 38.5px;
+border: 0.77px;
+gap: 6.16px;
+}
+.sectionone-mobilebuttons>button:nth-child(2){
+    background-color: rgb(39, 37, 91);
+border: 1px solid white !important;
+    box-shadow: 0px 0px 31px 0px #419AEC80;
+    width: Fill (225px);
+height: Hug (35.32px);
+padding: 6.16px, 23.1px, 6.16px, 23.1px;
+border-radius: 38.5px;
+border: 0.77px;
+gap: 6.16px;
+}
+.sectionone-mobilebuttons button{
+    width: 150%;
+}
+.sectionone-mobilebuttons{
+    justify-content: center;
+    align-items: center;
+}
+.sectionone-mobilebuttons{
+    gap: 1rem;
+}
+
+
+/*section two starts here*/
+.sectiontwo-subcontenttwo{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+   
+}
+.sectiontwo-contentone{
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.sectiontwo-subcontenttwo h2{
+    width: 100%;
+    font-size: clamp(120%,calc(3.5vw+1rem),200%);
+
+    font-family: 'SigniaPro', sans-serif;
+}
+
+/*section three*/
+
+.sectionthree-contentone h2{
+    width: 100%;
+    font-size: clamp(120%,calc(3.5vw+1rem),200%);
+  
+  width: 80%;
+    font-family: 'SigniaPro', sans-serif;
+}
+.sectionthree-contentone p{
+ 
+    font-size: 0.9rem;
+    margin-left: 10%;
+}
+.lastsection-div h2{
+ 
+  text-align: center;
+    font-size: clamp(130%,calc(3.9vw+1rem),210%);
+  width: 70%;
+    font-family: 'SigniaPro', sans-serif;
+}
+.lastsection-div p{
+    width: 65%;
+    margin-top:3%;   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lastsection-div button{
+    background: linear-gradient(0deg, #275ACE, #275ACE),
+linear-gradient(0deg, #8CC8FF, #8CC8FF);
+border: 1px solid #8CC8FF;
+box-shadow: 0px 0px 31px 0px #419AEC80;
+
+height: 2.5rem;
+margin-top: 3%;
+border-radius: 5rem;
+padding: 8px, 30px, 8px, 30px;
+}
+.landing-page-faq-heading{
+
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.landing-page-faq-heading h2 p{
+
+text-align: center;
+margin-top: -1%;
+}
+.landing-page-faq-heading h3{
+    font-size: 1rem !important;
+}
+.landing-page-faq{
+
+    width: 100%;
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.landing-page-faq-content{
+    width: 100%;
+ margin-top: 3%;
+justify-content: center;
+align-items: center;
+}
+.landing-page-faq-content >div{
+justify-content: space-between;
+align-items: center;
+background-color: rgb(23, 28, 59);
+border-radius: 50px;
+height: 4rem;
+transition: all 0.4s ease-in;
+overflow: hidden;
+position: relative;
+}
+.togglefaq{
+    height: clamp(10rem,13vw,20rem) !important;
+}
+.landing-page-faq-content >div:not(:nth-child(1)){
+margin-top: 1%;
+}
+
+.landing-page-faq-content > div p {
+    padding-left: 4%;
+    text-align: start;
+    font-size: clamp(0.6rem,1vw,1rem);
+   margin-top: -1%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100%;
+  }
+  
+
+.landing-page-faq-content >div svg{
+    position: absolute;
+left: 90%;
+width: clamp(0.8rem,5vw,3rem);
+top: 20%;
+
+}
+#faq-text{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.entry-laptop-footer-div{
+    margin-top: 15%;
+}
+.entrymobile-footer-mobile{
+    margin-top: 25%;
+}
+.faq-content-text{
+   
+    width: 100%;
+  
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    display: flex;
+}
+
+.faq-content-text p:not(:nth-child(1)){
+
+font-size: clamp(0.4rem,0.9vw,0.9rem);
+width: 100%;
+margin-top: 10%;
+
+}
+.faq-content-text div{
+
+    width: 100%;
+    
+    height: fit-content;
+}
+
+.faq-question{
+   display: none;
+margin-top: 3%;
+}
+.faq-question p{
+    width: 100%;
+}
+
+.landing-page-faq-heading h2{
+
+width: fit-content;
+}
+.landing-page-faq-heading p{
+
+width: fit-content;
+}

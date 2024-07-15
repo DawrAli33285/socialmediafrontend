@@ -1,0 +1,248 @@
+@media(min-width:768px){
+    .creator-profile-buttonsdiv{
+
+     padding-left: 35%;
+    }  
+    .bookcall-creatorprofile{
+ 
+        width: 60%;
+
+    }
+    .creatorprofile-div{
+        margin-top: 7%;
+    }
+    .creator-profile-exp{
+        width: 60%;
+    }
+    .creator-profile-sharepopupdiv{
+        width: 25%;
+    
+        height: 25%;
+    }
+}
+
+@media (max-width:767px){
+    .creator-profile-btn{
+        margin-top: 1rem;
+    }
+    .creator-profile-sharepopupdiv{
+        width: 85%;
+    
+        height: 25%;
+    }
+    .creatorprofile-div{
+        margin-top: 5%;
+    }
+    .creator-profile-exp{
+        width: 100%;
+    }
+}
+
+.creatorprofile-div{
+    border: 1px solid #5991C6;
+    font-size: clamp(0.9rem,1.5vw,1rem);
+    padding-top: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    
+    padding:2rem; 
+    border-radius: 20px;
+    height: 65%;
+    scrollbar-color: #2e2e2e #454545;
+    scrollbar-width: thin; 
+}
+.creator-info-svg div:nth-child(2){
+   
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 2rem;
+    display: flex;
+    position: absolute;
+
+}
+.threedots-svgprofile{
+    box-shadow: 0px 0px 31px 0px #419AEC80;
+
+}
+.creator-profile-btn{
+    border: 1px solid #55C0EF;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 31px 0px #419AEC80;
+    background: linear-gradient(0deg, #22779C, #22779C),
+    linear-gradient(0deg, #55C0EF, #55C0EF);
+    
+}
+.creatorProfile-div{
+    background: linear-gradient(0deg, #11142E, #11142E),
+    linear-gradient(0deg, #5991C6, #5991C6);
+    height: 175%;
+    color: white;
+width: 100%;
+}
+.creator-divtwo{
+  
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.creatorprofile-audiodiv{
+  
+height: 8rem;
+width: 100%;
+padding-left: 0.4rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+.locked-post-creator{
+
+    position: absolute;
+    padding-left: 50%;
+    backdrop-filter: blur(3px); 
+    z-index: 5;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+    width: 100%;
+}
+.locked-post-creator p{
+    border: 3px solid yellow;
+}
+.creator-audio-div{
+ 
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.creator-audio-filter-sheet{
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+    backdrop-filter: blur(3px); 
+    z-index: 5;
+
+}
+
+@media (min-width:1280px){
+    .creatorprofile-audiogrid{
+ 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 2;
+        
+        width: 95%;
+    }
+}
+@media (max-width:1279px){
+    .creatorprofile-audiogrid{
+
+ width: 100%;
+     display: flex;
+     flex-direction: column;
+    }
+}
+.creatorprofile-firstdiv{
+    width: 100%;
+
+}
+.creator-profile-buttonsdiv{
+
+    justify-content: center;
+    align-items: center;
+
+}
+.bookcall-creatorprofile{
+
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.creator-profile-sharepopup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.creator-profile-popupcandiv{
+
+width: 95%;
+margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.craetor-profile-popupsocial{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.craetor-profile-popupsocial div{
+    background-color: #5E5A6F;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    height: 40px;
+    border-radius: 50%;
+}
+.creator-profile-sharepopupdiv{
+   
+    border-radius: 20px;
+  
+}
+#creatorprofile-threedots{
+   
+    width: fit-content;
+    width: clamp(8rem,20vw,15rem);
+    left: -400%;
+    display: flex;
+    height: 6rem !important;
+    justify-content: flex-start;
+    border: 1px solid #8CC8FF;
+top: 100%;
+background: #11142E;
+border-radius: 8px;
+    align-items: flex-start;
+}
+
+.creatorprofile-threedotssvgdiv{
+ height:35px !important;
+ width: 35px !important;
+ left:80%;
+ border-radius: 50%;
+background: #184FEE;
+
+}
+.creator-profilesecondsvg{
+    height:35px !important;
+    width: 35px !important;
+    border-radius: 50%;
+   background: #184FEE;
+   
+}

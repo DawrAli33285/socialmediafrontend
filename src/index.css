@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 18px; /* Larger on big screens */
+  }
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%; /* Ensures that the body takes full viewport width */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Sans&family=Inter:wght@300&family=Montserrat:wght@200;300&family=Roboto:wght@300&family=Sacramento&display=swap');
+@import url('./common/rootcss/root.css');
+@font-face {
+  font-family: 'SigniaPro';
+  src: url('../public/SigniaPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5{
+  font-weight: bold;
+  font-family: 'SigniaPro', sans-serif;
+}
+p,span,li,button{
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
