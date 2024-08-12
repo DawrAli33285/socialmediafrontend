@@ -80,6 +80,9 @@ Tags
         </div>
     })
 )}
+{creators?.length==0&&(
+    <p>No creator found</p>
+)}
 
         </div>
     )

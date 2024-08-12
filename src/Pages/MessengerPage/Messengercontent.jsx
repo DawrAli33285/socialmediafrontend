@@ -15,7 +15,7 @@ const Messengercontent=()=>{
 const fetchconversation=async()=>{
 let res=await dispatch(getConversation())
 if(getConversation.rejected.match(res)){
-    console.log('res')
+    console.log('res messages')
 console.log(res)
 toastr.error(res.error)
 }
@@ -79,7 +79,7 @@ if (getConversation.fulfilled.match(res)) {
     return(
         <div style={{justifyContent:'flex-start',alignItems:'center',overflow:'auto'}} className="messengercontent-div">
          
-           {creators?.map((creator,i)=>{
+           {creators?.length>0?creators?.map((creator,i)=>{
              const hasExpiry = creator.expiray ? checkExpiry(creator) : true;
              
           console.log('messenger creator')
@@ -119,29 +119,31 @@ if (getConversation.fulfilled.match(res)) {
 
 <div className="messenger-icons">
 <div className="message-unseen flex flex-row relative">
-<svg width="27" height="23" viewBox="0 0 34 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="22" height="23" viewBox="0 0 34 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16.7629 11.2627L32.0647 1.43269C31.4495 0.971256 30.7025 0.719444 29.9335 0.714294H3.59241C2.82342 0.719444 2.07637 0.971256 1.46118 1.43269L16.7629 11.2627Z" fill="white"/>
 <path d="M17.409 13.6933L17.2055 13.7891H17.1097C16.9995 13.8383 16.8824 13.8706 16.7625 13.8848C16.6631 13.8974 16.5625 13.8974 16.4632 13.8848H16.3674L16.1638 13.7891L0.119732 3.42026C0.0430773 3.70946 0.00285526 4.0071 0 4.30627V21.0688C0 22.0214 0.378438 22.935 1.05206 23.6087C1.72569 24.2823 2.63932 24.6607 3.59196 24.6607H29.933C30.8857 24.6607 31.7993 24.2823 32.4729 23.6087C33.1466 22.935 33.525 22.0214 33.525 21.0688V4.30627C33.5221 4.0071 33.4819 3.70946 33.4053 3.42026L17.409 13.6933Z" fill="white"/>
 </svg>
 
 {
-    messages?.filter(u => u?.creator === creator?.creator?._id && u.seen==false && u?.sender==creator?.creator?._id).length > 0 &&
+    messages?.filter(u => u?.creator?._id === creator?.creator?._id && u.seen==false && u?.sender==creator?.creator?._id).length > 0 &&
     <p style={{position:'absolute',width:'15px',left:'60%',top:'40%',height:'15px',background:'red',borderRadius:'50%'}} className="text-center">
 
-{    messages.filter(u => u?.creator === creator?.creator?._id && u.seen==false && u?.sender==creator?.creator?._id).length}
+{    messages.filter(u => u?.creator?._id === creator?.creator?._id && u.seen==false && u?.sender==creator?.creator?._id).length}
     </p>
 }
 
 
 </div>
 
-<svg className="cursor-pointer" onClick={()=>navigate(`/chat?creator=${creator?.creator?._id.toString()}&name=${creator?.creator?.name}`)} width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg  className="cursor-pointer" onClick={()=>navigate(`/chat?creator=${creator?.creator?._id.toString()}&name=${creator?.creator?.name}`)} width="14" height="15" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1.92182 20.9999C2.16905 21.0007 2.41333 20.9512 2.63671 20.8552C2.86009 20.7591 3.05688 20.619 3.21264 20.4449L11.2058 11.4458C11.4492 11.1774 11.5823 10.8408 11.5823 10.4934C11.5823 10.146 11.4492 9.80935 11.2058 9.54098L2.93131 0.541827C2.65041 0.235531 2.24676 0.0429128 1.80916 0.00634665C1.37156 -0.0302195 0.935856 0.0922618 0.597898 0.346846C0.259939 0.601429 0.047411 0.967262 0.00706482 1.36386C-0.0332813 1.76047 0.10186 2.15535 0.382761 2.46165L7.78016 10.5009L0.630997 18.5401C0.42863 18.7603 0.300082 19.0284 0.260564 19.3127C0.221045 19.597 0.27221 19.8856 0.408005 20.1443C0.543798 20.4031 0.758538 20.6212 1.02681 20.7728C1.29509 20.9244 1.60568 21.0032 1.92182 20.9999Z" fill="white"/>
 </svg>
 
 </div>
             </div>
-           })}
+           }):<p>
+            No message record found
+            </p>}
         </div>
     )
 }

@@ -42,7 +42,7 @@ height: 30%;
 .messenger-icons{
     
     width: 66%;
-    gap: 10%;
+    gap: 3%;
     display: flex;
     justify-content: flex-end;
 align-items: center;

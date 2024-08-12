@@ -66,13 +66,13 @@ const setRedirectTimeout = (start_time, end_time, creatorid) => {
 
     // If the end time has already passed or is now, execute immediately
     if (delayInMillis <= 0) {
-        window.location.href = `/messenger`;
-        userdisconnected(creatorid);
+      //   window.location.href = `/messenger`;
+      //   userdisconnected(creatorid);
     } else {
         // Set the timeout to wait until the end time
         setTimeout(() => {
-            window.location.href = `/messenger`;
-            userdisconnected(creatorid);
+            // window.location.href = `/messenger`;
+            // userdisconnected(creatorid);
         }, delayInMillis);
     }
 

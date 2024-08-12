@@ -89,7 +89,7 @@ navigate(`/chat?creator=${id}`)
   <img style={{width:'30px',height:'30px',borderRadius:'50%'}} src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"></img>
 </div>
 <div className='flex flex-col space-y-2'>
-<p>Jade Be</p>
+<p>{creator?.name}</p>
 <p>Développement personnel</p>
 </div>
 </div>

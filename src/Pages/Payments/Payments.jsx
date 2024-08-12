@@ -111,7 +111,7 @@ if (error) {
     console.log('socketcontext')
     console.log(socketcontext?.current)
     socketcontext?.current?.emit('socketnotification',socketnotification)
-   navigate(`/chat?creator=${state.creatorid}`)
+   navigate(`/chat?creator=${state.creatorid}&name=${state.creatorname}`)
 
     // const {paymentIntent, error} = await stripe.confirmCardPayment(
     //   `${res.payload.data.client_secret}`,
